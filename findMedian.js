@@ -8,7 +8,6 @@ function findMedian(arr) {
     var length = concat.length;
 
     if (length % 2 == 1) {
-
         // If length is odd
         console.log(concat[(length / 2) - .5])
         return concat[(length / 2) - .5]

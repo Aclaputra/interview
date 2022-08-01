@@ -1,0 +1,2 @@
+-- SELECT * FROM table_name ORDER BY column1 ASC|DESC , column2 ASC|DESC
+SELECT * FROM Student ORDER BY ROLL_NO DESC;

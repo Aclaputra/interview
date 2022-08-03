@@ -7,3 +7,4 @@ references:
 - https://www.geeksforgeeks.org/fizz-buzz-implementation/
 - https://www.geeksforgeeks.org/sql-order-by/
 - https://www.geeksforgeeks.org/java-program-to-check-if-a-number-is-prime-or-not/
+- https://www.geeksforgeeks.org/double-brace-initialization-java/

@@ -1,5 +1,8 @@
 package com.problem.java.test;
 
+/**
+ * TestDoubleForLoops
+ */
 public class TestDoubleForLoops {
     static void forLoops(int n) {
         for(int i = 0; i < n; i++) {

@@ -1,6 +1,9 @@
 package com.problem.java.dsa.bigonotation;
 
 public class BigOPairSumSequence {
+    /**
+     * used to make power of a number
+     */
     static int pairSumSequence(int n) {
         int sum = 0;
         for (int i = 0; i < n; i++) {

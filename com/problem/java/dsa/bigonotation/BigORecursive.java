@@ -10,7 +10,7 @@ public class BigORecursive {
         if(n <= 0) {
             return 0;
         }
-        System.out.println(n);
+        // System.out.println(n);
         /**
          * will be repeated go up decresing by one until it got into 0
          * and it will be sum all the number by decreasing

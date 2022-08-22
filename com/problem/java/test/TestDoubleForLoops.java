@@ -15,5 +15,6 @@ public class TestDoubleForLoops {
 
     public static void main(String[] args) {
         forLoops(11);
+        forLoops(20);    
     }
 }

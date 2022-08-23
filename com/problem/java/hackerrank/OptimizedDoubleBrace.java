@@ -1,4 +1,4 @@
-package com.problem.java;
+package com.problem.java.hackerrank;
 
 import java.util.HashSet;
 import java.util.Set;;

@@ -1,4 +1,4 @@
-package com.problem.java;
+package com.problem.java.hackerrank;
 // Java implementation of the approach
 import java.util.*;
  

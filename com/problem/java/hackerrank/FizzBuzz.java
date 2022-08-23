@@ -1,4 +1,4 @@
-package com.problem.java;
+package com.problem.java.hackerrank;
 
 /**
  * Time Complexity: O(100)

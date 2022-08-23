@@ -1,4 +1,4 @@
-package com.problem.java;
+package com.problem.java.hackerrank;
 // Java program for the
 // stooge sort
 class SlowestKeyPress{

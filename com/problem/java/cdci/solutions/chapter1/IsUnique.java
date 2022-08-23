@@ -99,9 +99,10 @@ public class IsUnique {
              * ______________________________________________________________|
              */
             int val = str.charAt(i);
-            /**_____________________________,note
-             * << operator still a mystery. |
-             * _____________________________|
+            /**________________________________________,note
+             * << left shift array operator            |
+             * left shift x by n positions <=> x * 2n  |
+             * ________________________________________|
              */
             if ((checker & (1 << val)) > 0) {
                 return false;

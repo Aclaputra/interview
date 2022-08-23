@@ -1,5 +1,5 @@
 # interview preparation
-Hackerrank Interview Preparation with various problems that I found, will be using this for my Traveloka backend Interview later again wml
+Hackerrank Interview Preparation with various problems that I found, will be using this for my Traveloka backend Interview again later wml
 
 references: 
 - https://www.geeksforgeeks.org/minimum-number-of-groups-of-nodes-such-that-no-ancestor-is-present-in-the-same-group/

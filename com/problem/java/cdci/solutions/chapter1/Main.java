@@ -5,7 +5,7 @@ package com.problem.java.cdci.solutions.chapter1;
  */
 public class Main {
     /** 
-     * 1. Is Unique : Implement an algorithm to determine if a string has all unique characters. What if you-
+     * 1) Is Unique : Implement an algorithm to determine if a string has all unique characters. What if you-
      * cannot use additional data structures.
      * 
      * You should first ask your interviewer if the String is an ASCII string or a Unicode string. Asking this-
@@ -14,7 +14,11 @@ public class Main {
      * the storage size.
      * 
      * One Solution is to create an array of boolean values, where the flag at index i indicates whether chara-
-     * cters in the alphabet. After all, you can't form a string
+     * cters in the alphabet. After all, you can't form a string of 280 unique characters out of a 128-character-
+     * alphabet.
+     * 
+     * Note: It's also okay to assume 256 characters. this would be the case in extended ACII. You should clarify-
+     * your assumptions with your interviewer.
      */
 
     /** Method 1 --------------------------------------------------------
@@ -62,6 +66,18 @@ public class Main {
         }
         return true;
     }
+    /** Result --
+     * The time complexity for this code is O(n), where n is the length of the string. The space complexity is O(1).
+     * (You could also argue the time complexity is O(1), since the for loop will never iterate through more than 128-
+     * characters). if you didn't want to assume the character set is fixed, you could express the complexity as O(c)
+     * space and O(min(c, n)) or O(c) time, where c is the size of the character set.
+     */
+    
+    /**
+     * We can reduce our space usage by a factor of eight by using a bit vector. We will assume , in the below code,
+     * that the string only uses the lowercase letters a through z. this will allow us to use just a single int.
+     */
+
     /** Method 2 --------------------------------------------------------
      * reduced or optimized function for isUniqueChars function
      * @param str
@@ -94,10 +110,28 @@ public class Main {
         }
         return true;
     }
+    /** Result --
+     * If we can't use additional data structures, we can do the following :
+     * 
+     * 1. Compare every character of the string to every other character of the string. This will take-
+     * O(n^2) time and O(1) space.
+     * 
+     * 2. If we allowed to modify the input string we could sort the string in O(n log(n)) time and then-
+     * linearly check the string for neighboring characters that are identical. Careful, though: many-
+     * sorting algorithms take up extra space.
+     */
 
     /** 
-     * 2. Check Permutation : Given two strings, write a method to decide if one is a-
+     * 2) Check Permutation : Given two strings, write a method to decide if one is a-
      * permutation of the others.
+     * 
+     * Like in many questions, we should confirm some details with our interviewer. We should understand-
+     * if the permutation comparison is case sensitive. That is: is God permutation of dog? Additionally,
+     * we should ask if whitespace is significant. We will assume for this problem that the comparison is-
+     * case sensitive and whitespace is significant. So, "god   " is different from "dog".
+     * 
+     * Observe first that strings of different lengths cannot be permutations of each other. There are two-
+     * easy ways to solve this problemm, both of which use this optimization.
      */
 
     /** Method 1 --------------------------------------------------------
@@ -117,14 +151,44 @@ public class Main {
     }
     static boolean permutation(String s, String t) {
         /**
-         * 
+         * if the paremeter s and t not the same length then it will return false.
+         * if it have the same length then it will return true.
          */
         if (s.length() != t.length()) return false;
         return sort(s).equals(sort(t));
     }
 
+    /** Method 2 --------------------------------------------------------
+     * make your own permutation definition function.
+     * @param s
+     * @param t
+     * @return
+     */
+    static boolean definitionPermutation(String s, String t) {
+        if (s.length() != t.length()) return false;
+        int[] letters = new int[128]; // assumption
+
+        char[] s_array = s.toCharArray();
+        // count number of each char in s.
+        for(char c : s_array) letters[c]++;
+
+        for(int i = 0; i < t.length(); i++) {
+            int c = (int) t.charAt(i);
+            letters[c]--;
+            if (letters[c] < 0) return false;
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
+        // problem 1 - Is Unique
         System.out.println(isUniqueChars("abcdefg"));
         System.out.println(reducedIsUniqueChars("abcdefg"));
+        // problem 2 - Check Permutation
+        System.out.println(permutation("scorpio", "virgo"));
+        System.out.println(permutation("scorpio", "scorpio"));
+
+        System.out.println(definitionPermutation("scorpio", "virgo"));
+        System.out.println(definitionPermutation("scorpio", "scorpio"));
     }
 }

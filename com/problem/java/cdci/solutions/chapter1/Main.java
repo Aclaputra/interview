@@ -1,7 +1,23 @@
 package com.problem.java.cdci.solutions.chapter1;
 
+/** Solutions to Arrays and Strings =================================
+ * CHAPTER 1.
+ */
 public class Main {
-    /** Solutions to Arrays and Strings =================================
+    /** 
+     * 1. Is Unique : Implement an algorithm to determine if a string has all unique characters. What if you-
+     * cannot use additional data structures.
+     * 
+     * You should first ask your interviewer if the String is an ASCII string or a Unicode string. Asking this-
+     * question will show an eye for detail and solid foundation in computer science. We'll assume for simpli-
+     * city the character set is ASCII. if the assumption is not valid, we would need to increase-
+     * the storage size.
+     * 
+     * One Solution is to create an array of boolean values, where the flag at index i indicates whether chara-
+     * cters in the alphabet. After all, you can't form a string
+     */
+
+    /** Method 1 --------------------------------------------------------
      * 
      * isUniqueChars check if the name already have the same char or not.
      * if it is unique return true if not return false.
@@ -46,7 +62,7 @@ public class Main {
         }
         return true;
     }
-    /**
+    /** Method 2 --------------------------------------------------------
      * reduced or optimized function for isUniqueChars function
      * @param str
      * @return
@@ -79,7 +95,33 @@ public class Main {
         return true;
     }
 
-    
+    /** 
+     * 2. Check Permutation : Given two strings, write a method to decide if one is a-
+     * permutation of the others.
+     */
+
+    /** Method 1 --------------------------------------------------------
+     * sort function
+     * @param s
+     * @return
+     */
+    static String sort(String s) {
+        /**
+         * s.toCharArray changing char from parameter s into an array. then store it in content array variable.
+         * java.util.Arrays.sort(content) get the library sort to sorting the content array variable.
+         * after that change the array into String and then return it.
+         */
+        char[] content = s.toCharArray();
+        java.util.Arrays.sort(content);
+        return new String(content);
+    }
+    static boolean permutation(String s, String t) {
+        /**
+         * 
+         */
+        if (s.length() != t.length()) return false;
+        return sort(s).equals(sort(t));
+    }
 
     public static void main(String[] args) {
         System.out.println(isUniqueChars("abcdefg"));

@@ -1,0 +1,22 @@
+-- List the courses names
+-- A university maintains data on professors, depratements, courses, and schedules in four-
+-- tables: DEPARTEMENT, PROFESSOR, COURSE, and SCHEDULE. Write a query for the names of all professors and the respective-
+-- courses they teach. Each row of results must contain PROFESSOR_NAME, COURSE_NAME for each course that each professor-
+-- teaches now or In the past. The professor names may be printed in any order, but the results must not contain-
+-- duplicate rows.
+
+-- Schema.
+-- -------------------------------------------------------------------
+-- |                   PROFESSORS                                    |
+-- -------------------------------------------------------------------
+-- |    NAME       |   TYPE    |           DESCRIPTION               |
+-- -------------------------------------------------------------------
+-- |    ID         |  Integer  | A professor's ID in the inclusive   |
+-- |               |           | range [1, 1000]. This is a primary  |
+-- -------------------------------------------------------------------
+-- |    NAME       |  String   | A professor's Name. this field co.. |
+-- -------------------------------------------------------------------
+-- | DEPARTMENT_ID |  Integer  | A professor's department ID. This.. |
+-- -------------------------------------------------------------------
+-- |    SALARY     |  Integer  | A professor's ID in the inclusive.. |
+-- -------------------------------------------------------------------

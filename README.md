@@ -1,5 +1,5 @@
 # interview preparation
-Hackerrank Interview Preparation with various problems that I found, will be using this for my Traveloka backend Interview again later wml
+Hackerrank, Algorithms, Interview Preparation etc with various problems that I learned, will be using this for my Traveloka backend Interview again later wml
 
 references: 
 - https://www.geeksforgeeks.org/left-shift-operator-in-java/

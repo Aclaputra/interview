@@ -5,6 +5,7 @@ questions based on my failed experience dealing with software engineer interview
 - Dana. (Java)
 - Shopee. (Algorithms time complexity big O notation, mostly Python, Java is fine too)
 - Traveloka. (Preferable Java)
+- Google. (soon)
 
 references: 
 - https://www.geeksforgeeks.org/left-shift-operator-in-java/

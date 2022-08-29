@@ -4,7 +4,7 @@ Hackerrank, Algorithms, Interview Preparation etc with various problems that I l
 questions based on my failed experience dealing with software engineer interview at :
 - Dana. (Java)
 - Shopee. (Algorithms time complexity big O notation, mostly Python, Java is fine too)
-- Traveloka. (Preferable Java)
+- Traveloka. (Preferable Java, also a plus)
 - Google. (soon)
 
 references: 

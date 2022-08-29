@@ -1,10 +1,10 @@
 # interview preparation
 Hackerrank, Algorithms, Interview Preparation etc with various problems that I learned, will be using this for my Traveloka backend Interview again later wml
 
-questions based on my failed experience software engineer interview at :
-- Dana.
-- Shopee.
-- Traveloka.
+questions based on my failed experience dealing with software engineer interview at :
+- Dana. (Java)
+- Shopee. (Algorithms time complexity big O notation, mostly Python, Java is fine too)
+- Traveloka. (Preferable Java)
 
 references: 
 - https://www.geeksforgeeks.org/left-shift-operator-in-java/

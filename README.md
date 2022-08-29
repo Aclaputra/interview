@@ -1,6 +1,11 @@
 # interview preparation
 Hackerrank, Algorithms, Interview Preparation etc with various problems that I learned, will be using this for my Traveloka backend Interview again later wml
 
+question based on my failed interview on :
+- Dana.
+- Shopee.
+- Traveloka.
+
 references: 
 - https://www.geeksforgeeks.org/left-shift-operator-in-java/
 - https://www.geeksforgeeks.org/minimum-number-of-groups-of-nodes-such-that-no-ancestor-is-present-in-the-same-group/

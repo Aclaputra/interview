@@ -1,7 +1,7 @@
 # interview preparation
 Hackerrank, Algorithms, Interview Preparation etc with various problems that I learned, will be using this for my Traveloka backend Interview again later wml
 
-question based on my failed interview on :
+questions based on my failed backend engineer interview at :
 - Dana.
 - Shopee.
 - Traveloka.

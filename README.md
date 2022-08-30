@@ -6,7 +6,7 @@ questions based on my failed experience dealing with software engineer interview
 - Shopee. (Algorithms time complexity big O notation, mostly Python, Java is fine too) (hard)
 - Traveloka. (Preferable Java, also a plus, System Design SQL) (medium)
 - Google. (soon, but imo it will be C++ and Java) (idk yet)
-- Meta. (can be Java, PHP or Hack) (idk yet)
+- Meta. (can be Java, Python, PHP or Hack) (idk yet)
 
 references: 
 - https://www.geeksforgeeks.org/left-shift-operator-in-java/

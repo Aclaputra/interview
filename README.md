@@ -16,3 +16,5 @@ references:
 - https://www.geeksforgeeks.org/sql-order-by/
 - https://www.geeksforgeeks.org/java-program-to-check-if-a-number-is-prime-or-not/
 - https://www.geeksforgeeks.org/double-brace-initialization-java/
+- https://www.javatpoint.com/operator-shiftin
+- https://www.educba.com/java-array-push/

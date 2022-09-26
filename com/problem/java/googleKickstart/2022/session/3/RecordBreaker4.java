@@ -9,7 +9,8 @@ class Solution {
     for (int i = 1; i <= t; ++i)
     {
       n = sc.nextInt();
-      int arr[n], ans = 0, p = 0;
+      int arr[n] =  
+      int ans = 0, p = 0;
       
     }
   }

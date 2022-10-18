@@ -2,7 +2,7 @@ package com.problem.java.hackerrank;
 
 /**
  * Time Complexity: O(100)
- * Auxiliary Space: O(1)
+ * Auxiliary Space: 0(n)
  */
 public class FizzBuzz {
     public static void main(String[] args) {

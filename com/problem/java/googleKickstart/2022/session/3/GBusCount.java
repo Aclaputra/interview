@@ -1,10 +1,9 @@
-
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.HashMap;
 import java.util.Hashtable;
 
-class GBus {
+public class Solution {
   public static void main(String[] args) {
       gBus();
   }

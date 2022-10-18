@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /** Starter code for the Kick Start 2022 problem "GBus count". */
-public class GBusCountSolution {
+public class Solution {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     // Read the number of test cases.

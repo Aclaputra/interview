@@ -5,8 +5,7 @@ class SlowestKeyPress{
      
     // Function to implement
     // stooge sort
-    static void stoogesort(int arr[],
-                           int l, int h)
+    static void stoogesort(int arr[], int l, int h)
     {
       // Base Case
       if (l >= h)

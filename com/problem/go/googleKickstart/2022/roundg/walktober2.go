@@ -5,7 +5,7 @@ import "math"
 
 func main() {
   var T int
-  var a [][]int = make([][]int, 3, 3)
+  var a [][]int = make([][]int, 3)
   fmt.Scan(&T)
 
   for t := 1; t <= T; t++ {

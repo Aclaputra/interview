@@ -1,27 +1,30 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
+
+func remainingPieces() int {
+	var (
+		N   int
+		M   int
+		sum int
+	)
+	fmt.Scanf("%d %d", &N, &M)
+	for i := 0; i < N; i++ {
+		var Ci int
+		fmt.Scan(&Ci)
+		sum += Ci
+	}
+	return sum % M
+}
 
 func main() {
-  var testCase int
-  fmt.Scan(&testCase)
-
-  for t := 0; t < testCase; t++ {
-    var n int
-    var m int
-    var totalCandies int
-
-    fmt.Scan(&n)
-    fmt.Scan(&m)
-
-    for i := 0; i < n; i++ {
-      var candie int
-      fmt.Scan(&candie)
-      totalCandies += candie
-    }
-
-    res := fmt.Sprintf("Case #%d: %d", t+1, totalCandies%m)
-    fmt.Println(res)
-  }
+	var T int
+	fmt.Scanf("%d", &T)
+	for caseNumber := 1; caseNumber <= T; caseNumber++ {
+		output := remainingPieces()
+		fmt.Printf("Case #%d: %d\n", caseNumber, output)
+	}
 }
 

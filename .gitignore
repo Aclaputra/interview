@@ -1,2 +1,4 @@
 *.swq
 *.swp
+.vim/
+.metals/

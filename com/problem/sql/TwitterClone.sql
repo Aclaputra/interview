@@ -21,7 +21,9 @@ use twitter_clone;
 -- create tables users, tweets, & follows.
 create table users(
   uid int primary key, 
-  ip varchar(64)
+  ip varchar(64),
+  name varchar(64),
+  username varchar(64)
 );
 create table tweets(
   tid int primary key, 

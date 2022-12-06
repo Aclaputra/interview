@@ -9,6 +9,5 @@ class CheckPermutation
     String t = scanner.nextLine();
 
     boolean condition = false;
-    if (
   }
 }

@@ -5,12 +5,14 @@ import "math"
 
 func main() {
   var T int
-  var a [][]int = make([][]int, 3)
+  //var a [][]int = make([][]int, 3)
+  var a [10][10]int
+
   fmt.Scan(&T)
 
   for t := 1; t <= T; t++ {
     var M, N, P, ans int
-    fmt.Scan(&N, &M, &P)
+    fmt.Scan(&M, &N, &P)
     P--
 
     for i := 0; i < M; i++ {
@@ -27,8 +29,8 @@ func main() {
       ans += int(maxi) - a[P][i]
       fmt.Println(int(ans))
     }
-    fmt.Println(a)
+    //fmt.Println(a)
     
-    fmt.Println(fmt.Sprintf("ans: %d",ans))
+    //fmt.Println(fmt.Sprintf("ans: %d",ans))
   }
 }

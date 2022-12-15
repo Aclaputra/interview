@@ -6,6 +6,7 @@ public class Solution {
   public static int numberOfRecordBreakingDays(int numberOfDays, int[] visitors) {
     int recordBreakingDays = 0;
     // TODO: implement logic to calculate the number of record-breaking days
+    
 
     return recordBreakingDays;
   }

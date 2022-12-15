@@ -9,6 +9,7 @@ public class Solution {
   static Scanner sc = new Scanner(System.in);
 
   HashMap<Integer, ArrayList<Integer>> map = new HashMap<>();
+
   static void lines() {
     ArrayList<Integer> list = new ArrayList<>();
     try {
@@ -23,7 +24,7 @@ public class Solution {
     ArrayList<Integer> list = new ArrayList<>();
 
     lines();
-    //out.println(in.lines().collect(Collectors.toList()));
+    out.println(in.lines().collect(Collectors.toList()));
   }
 
   public static void main(String $[]) {

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="com/problem/java/googleKickstart/2022/roundg/|com/problem/java/googleKickstart/2013/|com/problem/java/metaHackerCup/2022/round/qualification/|com/problem/java/codechef/|com/problem/java/googleKickstart/2022/session/3/|com/problem/java/leetCode/|com/problem/java/ctci/solutions/chapter1/" kind="src" path=""/>
+	<classpathentry kind="src" path="com/problem/java/codechef"/>
+	<classpathentry kind="src" path="com/problem/java/ctci/solutions/chapter1"/>
+	<classpathentry kind="src" path="com/problem/java/googleKickstart/2013"/>
+	<classpathentry kind="src" path="com/problem/java/googleKickstart/2022/roundg"/>
+	<classpathentry kind="src" path="com/problem/java/googleKickstart/2022/session/3"/>
+	<classpathentry kind="src" path="com/problem/java/leetCode"/>
+	<classpathentry kind="src" path="com/problem/java/metaHackerCup/2022/round/qualification"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

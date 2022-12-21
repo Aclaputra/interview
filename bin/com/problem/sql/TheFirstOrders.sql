@@ -1,0 +1,38 @@
+-- The First Orders.
+-- A company maintains information about its orders in the ORDERS table, Write a query to print details of the earliest- 
+-- five orders (sorted by ORDER_DATE, ascending) that have not been delivered (I.e./ STATUS is not DELIVERED). if-
+-- there are more than five orders to choose from, select the ones with the lowest order ID. Sort the output in the-
+-- increasing order of order ID. the output should contain ID, ORDER_DATE, STATUS, CUSTOMER_ID.
+
+-- Table: Orders.
+-- ----------------------------------------------
+-- | column name         | column type          |
+-- ----------------------------------------------
+-- | Id                  | Int                  |
+-- ----------------------------------------------
+-- | order_date          | date                 |
+-- ----------------------------------------------
+-- | status              | varchar(50)          |
+-- ----------------------------------------------
+-- | customer_id         | Int                  |
+-- ----------------------------------------------
+
+-- Sample Input.
+-- ----------------------------------------------------------
+-- |                   Orders                               |
+-- ----------------------------------------------------------
+-- | ID     |   ORDER_DATE    |   STATUS      | CUSTOMER_ID |
+-- ----------------------------------------------------------
+-- | 10100  |   2003-01-06    |   PLACED      |     363     |
+-- ----------------------------------------------------------
+-- | 10101  |   2003-01-06    |   PLACED      |     128     |
+-- ----------------------------------------------------------
+-- | 10102  |   2003-01-06    |   IN TRANSIT  |     181     |
+-- ----------------------------------------------------------
+-- | 10103  |   2003-01-06    |   DELIVERED   |     121     |
+-- ----------------------------------------------------------
+-- | 10104  |   2003-01-06    |   PLACED      |     294     |
+-- ----------------------------------------------------------
+-- | 10105  |   2003-01-06    |   PLACED      |     435     |
+-- ----------------------------------------------------------
+

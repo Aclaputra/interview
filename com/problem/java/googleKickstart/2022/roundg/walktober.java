@@ -1,7 +1,10 @@
 import java.util.*;
+import java.io.*;
 
 class Solution {
   static Scanner sc = new Scanner(System.in);
+  static PrintStream out = System.out;
+
   static void solve() {
     int N = sc.nextInt();
     int M = sc.nextInt();
@@ -26,9 +29,9 @@ class Solution {
     for (int j = 0; j < M; ++j) {
       john.add(scoreBoard.get(P).get(j));
     }
-    
+
     // find maximum scores each day
-    for (int k = 0; k < M; ++k) { 
+    for (int k = 0; k < M; ++k) {
       int max = 0;
       for (int i : scoreBoard.keySet()) {
         if (scoreBoard.get(i).get(k) > max) {
@@ -44,21 +47,20 @@ class Solution {
       if (john.get(i) < maxScores.get(i)) {
         diff = maxScores.get(i) - john.get(i);
       }
-      if (diff > 0) ans += diff;
-      System.out.println("diff : " + diff);
+      if (diff > 0)
+        ans += diff;
+      // System.out.println("diff : " + diff);
     }
 
     System.out.println(ans);
   }
-    
 
   public static void main(String[] args) {
     int T = sc.nextInt();
     for (int t = 1; t <= T; ++t) {
-      System.out.print("Case #"+ t +": ");
+      out.print("Case #" + t + ": ");
       solve();
     }
     sc.close();
   }
 }
-

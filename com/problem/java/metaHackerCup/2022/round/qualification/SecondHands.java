@@ -9,6 +9,7 @@ public class Solution {
      * 1. get all the products put in an array
      * 2. loop through array, check the K exist more than once or not (permutation)
      * 3. create if condition permutation "YES" if not "NO"
+     *
      **/
     int[] a=new int[N];
 

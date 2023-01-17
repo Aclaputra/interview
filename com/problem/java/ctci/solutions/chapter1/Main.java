@@ -1,5 +1,7 @@
 package com.problem.java.ctci.solutions.chapter1;
 
+import com.problem.java.ctci.solutions.chapter1.IsUnique;
+import com.problem.java.ctci.solutions.chapter1.CheckPermutation;
 /** Solutions to Arrays and Strings.
  * CHAPTER 1 
  **/

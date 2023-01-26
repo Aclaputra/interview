@@ -1,6 +1,7 @@
 function miniMaxSum(arr) {
     // Write your code here
     arr.sort((a,b) => a - b);
+    console.log(arr);
     let min = arr.slice(0, arr.length - 1).reduce((a,b) => a+b);
     let max = arr.slice(1).reduce((a,b) => a+b);
     console.log(min, max);

@@ -1,0 +1,5 @@
+com/problem/python/googleKickstart/2022/session/3/FindCandy.py2
+7 3
+1 2 3 4 5 6 7
+5 10
+7 7 7 7 7

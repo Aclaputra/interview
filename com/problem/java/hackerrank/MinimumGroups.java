@@ -2,6 +2,7 @@ package com.problem.java.hackerrank;
 // Java implementation of the approach
 import java.util.*;
  
+//  or the jungle book
 class MinimumGroups
 {
  
@@ -49,6 +50,7 @@ class MinimumGroups
     {
         int par[] = { 0, -1, 1, 1, 2, 2, 5, 6 };
         int n = par.length - 1;
-        System.out.print(minimumGroups(n, par));
+        System.out.println("====================");
+        System.out.println(minimumGroups(n, par));
     }
 }
